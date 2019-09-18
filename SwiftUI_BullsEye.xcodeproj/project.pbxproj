@@ -24,6 +24,7 @@
 		89E3861B232B5F27008D75CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89E3861E232B5F27008D75CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89E38620232B5F27008D75CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89EA7B9E2331ECA600FBFC0C /* scratch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = scratch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				89E3861D232B5F27008D75CF /* LaunchScreen.storyboard */,
 				89E38620232B5F27008D75CF /* Info.plist */,
 				89E3861A232B5F27008D75CF /* Preview Content */,
+				89EA7B9E2331ECA600FBFC0C /* scratch.playground */,
 			);
 			path = SwiftUI_BullsEye;
 			sourceTree = "<group>";

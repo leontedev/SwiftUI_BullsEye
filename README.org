@@ -9,3 +9,9 @@ Slider(value: $guess, in: 0.0...100.0, step: 1.0)
 #+END_SRC
 
 [[Screen Shot 2019-09-13 at 10.57.26 AM.png]]
+
+ - Challenge: add an .opacity modifer on the Slider so the slider becomes invisible when the slider is correctly placed and becomes opaque again when moving away from the target.
+
+#+BEGIN_SRC Swift
+.opacity(Double(abs(Float(targetValue)-guess)/100))
+#+END_SRC

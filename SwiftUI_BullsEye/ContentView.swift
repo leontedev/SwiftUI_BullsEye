@@ -27,7 +27,10 @@ struct ContentView: View {
             Text("Put the Bull's Eye as close as you can to: \(targetValue)")
             HStack {
                 Text("0")
-                Slider(value: $guess, in: 0.0...100.0, step: 1.0)
+                Slider(value: $guess, in: 0.0...100.0, step: Float(1.0))
+                    .background(Color(.cyan))
+                    .cornerRadius(10)
+                    .opacity(Double(abs(Float(targetValue)-guess)/100))
                 Text("100")
             }
             Button(action: { self.showAlert = true }) {
